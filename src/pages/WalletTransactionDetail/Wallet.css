@@ -1,0 +1,7 @@
+.wallet-transaction .success {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(58, 131, 58);
+  margin-right: 10px;
+}

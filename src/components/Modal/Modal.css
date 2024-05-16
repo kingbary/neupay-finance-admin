@@ -1,0 +1,74 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+  /* width: 600px; */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content .content .image {
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid var(--clr-primary);
+  margin-right: 20px;
+}
+
+.modal-content .content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 600px;
+}
+
+.modal-content .content .image img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+.content p {
+  margin-top: 10px;
+  color: gray;
+  font-size: 18px;
+}
+
+/* Modal buttons */
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.modal-buttons .cancel-btn {
+  border: 0.5px solid gray;
+  color: gray;
+}
+
+.modal-buttons .action-btn{
+  background-color: var(--clr-primary);
+  color: white;
+}
+
+

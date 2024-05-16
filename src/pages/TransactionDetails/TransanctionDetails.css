@@ -1,0 +1,139 @@
+.transaction-npid {
+  margin-top: 20px;
+  color: gray;
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.transactor-details-card {
+  width: 100%;
+  background-color: #ededed;
+  border-radius: 8px;
+  padding: 10px;
+}
+.details-content {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.details-content .image-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--clr-primary);
+  margin-right: 10px;
+}
+
+.label-pos {
+  display: relative;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.label {
+  background-color: var(--clr-primary);
+  text-align: center;
+  border-radius: 6px;
+  color: white;
+  padding: 3px;
+  /* position: absolute;
+  bottom: 322px; */
+}
+
+.details-content .info {
+  margin-left: 5px;
+}
+.details-content .info .name {
+  color: black;
+  font-size: 17px;
+}
+
+.details-content .info .email {
+  color: gray;
+}
+
+.details-content .info .view-profile {
+  color: var(--clr-primary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.transactor-details-card hr {
+  background-color: gray;
+}
+.attached-doc {
+  margin-top: 10px;
+  color: gray;
+}
+
+.attached-doc .doc-container {
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px dashed var(--clr-primary);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.doc-container .filename {
+  color: var(--clr-primary);
+}
+
+.doc-container .action {
+  justify-self: center;
+  align-self: center;
+  color: var(--clr-primary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.transaction-details .right {
+  padding: 20px;
+}
+
+.tr-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.tr-item-name {
+  color: gray;
+}
+
+.tr-item-value {
+  width: 60%;
+}
+
+.tr-item-gray {
+  color: gray;
+}
+
+.tr-item-gray span {
+  color: var(--clr-primary);
+  text-decoration: underline;
+}
+
+.tr-item-id {
+  color: var(--clr-primary);
+  cursor: pointer;
+}
+
+.tr-item-id input {
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  cursor: pointer;
+  color: var(--clr-primary);
+  font-weight: bold;
+}

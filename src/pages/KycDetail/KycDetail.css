@@ -1,0 +1,86 @@
+.kyc-detail .main-container .info-card {
+  display: flex;
+}
+.kyc-detail .img-container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--clr-primary);
+  margin-right: 10px;
+}
+
+.kyc-detail .img-container img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.kyc-detail button {
+  margin-right: 10px;
+
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.kyc-detail button span {
+  margin-left: 5px;
+}
+
+.kyc-detail button:first-child {
+  color: red;
+  background-color: inherit;
+  border: 1px solid red;
+}
+.kyc-detail button:last-child {
+  background: var(--clr-primary);
+  color: whitesmoke;
+}
+
+.kyc-detail .info-card {
+  margin-bottom: 10px;
+}
+.flex-colum {
+  flex-direction: column;
+}
+.kyc-detail .copy {
+  color: var(--clr-primary);
+}
+
+.copy input {
+  background-color: inherit;
+  border: none;
+  color: var(--clr-primary);
+  font-weight: bold;
+  width: 90px;
+}
+
+.kyc-detail .kyc-info-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.kyc-detail .kyc-info-content .value {
+  color: rgb(97, 95, 95);
+}
+
+.id-card-container {
+  margin-bottom: 10px;
+}
+
+.id-card-container h3 {
+  color: gray;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.id-card-container .image-container {
+  width: 100%;
+  border: 2px solid var(--clr-primary);
+  border-radius: 15px;
+  /* height: 45px; */
+}
+
+.id-card-container .image-container img {
+  border-radius: 15px;
+  width: 100%;
+}

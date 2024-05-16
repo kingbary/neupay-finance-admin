@@ -1,0 +1,210 @@
+.dispute-page {
+  margin-top: 20px;
+}
+
+.dispute-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16;
+  color: grey;
+  font-weight: bold;
+}
+
+tr td:first-child {
+  display: flex;
+}
+
+tr td:first-child div {
+  margin-right: 20px;
+}
+
+tr td:first-child h3 {
+  color: var(--clr-primary);
+}
+
+tr td:first-child p {
+  color: gray;
+}
+
+/* Admin Table */
+.admin-table {
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(236, 235, 235);
+  color: grey;
+  border-radius: 20px;
+}
+
+thead th {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: left;
+}
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+.release-btn {
+  background-color: var(--clr-primary);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Modal CSS */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+}
+
+.release-funds-btn-container {
+  display: flex;
+  /* justify-content: flex-end; */
+  justify-content: space-between;
+}
+
+.release-funds-btn {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.btn-cancel {
+  background: rgb(218, 122, 122);
+}
+
+.active {
+  background-color: var(--clr-primary);
+}
+.disable {
+  background-color: rgb(140, 140, 202);
+}
+
+.heading-2 {
+  color: gray;
+  margin: 5px 0;
+}
+
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 1px;
+}
+
+.transaction .details {
+  display: flex;
+  align-items: center;
+}
+
+.transaction .details .image {
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.name > p:first-child {
+  font-size: 17px;
+}
+
+.name > p:last-child {
+  color: gray;
+}
+
+.details .image img {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid var(--clr-primary);
+}
+
+.tag {
+  position: absolute;
+  bottom: -12px;
+  font-size: 10px;
+  background-color: var(--clr-primary);
+  color: white;
+  padding: 3px 5px;
+  z-index: 20;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Success Modal Design */
+.success-modal-content {
+  text-align: center;
+  color: gray;
+}
+
+.close-btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.success-modal-content h3 {
+  color: black;
+  margin: 10px;
+}
+
+.success-modal-content .amount {
+  color: black;
+  font-weight: bold;
+}
+
+.success-modal-content .npid {
+  color: var(--clr-primary);
+  font-weight: bold;
+}
+
+.success-modal-content button {
+  background: var(--clr-primary);
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+}

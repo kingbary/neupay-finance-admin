@@ -1,0 +1,109 @@
+.invite-main-content {
+  display: flex;
+  margin-top: 10px;
+}
+.invite-main-content .invite-left {
+  width: 40%;
+  padding-right: 10px;
+}
+.input-item {
+  margin-bottom: 15px;
+}
+.input-item p {
+  color: gray;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.input-item input {
+  width: 100%;
+  /* font-size: 18px; */
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  outline: none;
+}
+
+.input-item input:focus {
+  border-color: var(--clr-primary);
+}
+
+.invite-main-content button {
+  width: 100%;
+  text-align: center;
+  background-color: var(--clr-primary);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+/* Invite Table */
+.invite-main-content tbody {
+  background: whitesmoke;
+}
+
+.invite-right {
+  width: 60%;
+}
+
+.invite-right .invite-table {
+  width: 100%;
+}
+
+/* 
+Tooltip */
+
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip {
+  cursor: pointer;
+}
+
+/* .tooltip-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+} */
+
+.tooltip:hover .tooltip-content {
+  display: block;
+}
+
+.tooltip-content .tooltiptext {
+  cursor: pointer;
+}
+
+.tooltip-content .tooltip-divider {
+  margin: 5px 0;
+}
+
+/* Modal */
+
+.invite-modal-content {
+  text-align: center;
+}
+
+.invite-modal-content p {
+  margin: 10px;
+  color: gray;
+}
+
+.invite-modal-content .email {
+  color: black;
+}
+
+.invite-modal-content button {
+  /* font-size: 17px; */
+  padding: 10px 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--clr-primary);
+  width: 100%;
+}
