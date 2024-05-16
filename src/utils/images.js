@@ -8,6 +8,10 @@ import messageIcons from "../assets/Icon/messages.svg";
 import userIcons from "../assets/Icon/user-group.svg";
 import withdrawalsIcons from "../assets/Icon/withdrawals.svg";
 import adminIcon from "../assets/Icon/Vector.png";
+import completedEscrowIcon from "../assets/Icon/completed-escrow-icon.svg";
+import canceledEscrowIcon from "../assets/Icon/canceled-escrow-icon.svg";
+import disputedEscrowIcon from "../assets/Icon/disputed-escrow-icon.svg";
+import totalEscrowIcon from "../assets/Icon/total-escrow-icon.svg";
 
 //logo
 import neupayLogo from "../assets/images/neupay_logo.png";
@@ -48,6 +52,10 @@ export const iconsImgs = {
   pendingIcon,
   completedIcon,
   arrowUp,
+  completedEscrowIcon,
+  canceledEscrowIcon,
+  disputedEscrowIcon,
+  totalEscrowIcon,
 };
 
 export const personsImgs = {

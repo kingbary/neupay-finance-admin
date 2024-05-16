@@ -4,6 +4,7 @@ import MetricCard from "./MetricCard";
 import LineChart from "./LineChart";
 import { lineChartData } from "./chartData";
 import PieChart from "./PieChart";
+import { iconsImgs } from "../../utils/images";
 
 export default function Overview() {
   const seriesData = [
@@ -42,34 +43,34 @@ export default function Overview() {
       <Container heading="Wallet">
         <div className="flex gap-4 w-full pb-8">
           <MetricCard
-            iconSrc="/assets/Icon/total-escrow-icon.svg"
+            iconSrc={iconsImgs.totalEscrowIcon}
             escrowType="Total"
             amount={"45,943"}
           />
           <MetricCard
-            iconSrc="/assets/Icon/completed-escrow-icon.svg"
+            iconSrc={iconsImgs.completedEscrowIcon}
             escrowType="Completed"
             amount={"45,943"}
           />
           <MetricCard
-            iconSrc="/assets/Icon/disputed-escrow-icon.svg"
+            iconSrc={iconsImgs.disputedEscrowIcon}
             escrowType="Disputed"
             amount={"45,943"}
           />
           <MetricCard
-            iconSrc="/assets/Icon/canceled-escrow-icon.svg"
+            iconSrc={iconsImgs.canceledEscrowIcon}
             escrowType="Canceled"
             amount={"45,943"}
           />
         </div>
       </Container>
       <div className="flex !items-start gap-4 w-full h-[450px] overflow-hidden">
-        <Container heading="Transaction Performance" hasSelect>
+        <Container heading="Transaction Performance" className="w-[150%" hasSelect>
           <div className="h-fit">
             <LineChart series={seriesData} categories={categories} />
           </div>
         </Container>
-        <Container heading="Chart" hasSelect className="w-[70%] h-full">
+        <Container heading="Chart" hasSelect className="h-full w-[40%]">
           <div className="h-full">
           <PieChart
             data={{
