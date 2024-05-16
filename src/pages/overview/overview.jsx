@@ -42,22 +42,22 @@ export default function Overview() {
       <Container heading="Wallet">
         <div className="flex gap-4 w-full pb-8">
           <MetricCard
-            iconSrc="/src/assets/Icon/total-escrow-icon.svg"
+            iconSrc="/assets/Icon/total-escrow-icon.svg"
             escrowType="Total"
             amount={"45,943"}
           />
           <MetricCard
-            iconSrc="/src/assets/Icon/completed-escrow-icon.svg"
+            iconSrc="/assets/Icon/completed-escrow-icon.svg"
             escrowType="Completed"
             amount={"45,943"}
           />
           <MetricCard
-            iconSrc="/src/assets/Icon/disputed-escrow-icon.svg"
+            iconSrc="/assets/Icon/disputed-escrow-icon.svg"
             escrowType="Disputed"
             amount={"45,943"}
           />
           <MetricCard
-            iconSrc="/src/assets/Icon/canceled-escrow-icon.svg"
+            iconSrc="/assets/Icon/canceled-escrow-icon.svg"
             escrowType="Canceled"
             amount={"45,943"}
           />
